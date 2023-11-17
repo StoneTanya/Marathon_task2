@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Normal";
+    src: url("./assets/fonts/tt-norms-the-one-universal-grotesk/TTNorms-Heavy.otf") format("opentype");
+  }
+
+@font-face {
+    font-family: "NormalSecond";
+    src: url("./assets/fonts/tt-norms-the-one-universal-grotesk/TTNorms-ExtraBold.otf") format("opentype");
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito";
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    background-color: rgb(70, 75, 77);
+}
+
+.h1 {
+    color: rgb(126, 204, 37);
+    font-family: Normal;
+    margin-bottom: 0;
+}
+
+.h2, .h3 {
+    font-family: "NormalSecond";
+    color: rgb(191, 182, 11);
+}
+
+.text {
+    color: antiquewhite;
+    font-size: 1.1rem;
+}
+
+.img_box {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#portrait {
+    width: 70%;
+    border: 2px solid #fff2;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 9px 1px rgba(122, 130, 137, 0.2);
+}
+
+.link_to_projects {
+    text-decoration: none;
+    color: rgb(210, 159, 30);
+}
+
+.icons_tech {
+    border: 1px solid #a5a2a2;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: 5px;
+}
+
